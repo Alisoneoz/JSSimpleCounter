@@ -1,0 +1,72 @@
+body{
+  background-image: linear-gradient(45deg,  #EBC8EF, #F3E7DB 50%) ;
+  margin: 0px;
+  padding-top: 0px;
+  font-family: 'Outfit', sans-serif;
+  
+}
+
+.header{
+  background-image: url("pexels-red-light-films-&-photography-11023373.jpg");
+  background-size: 1536px 1023px;
+  background: cover;
+  margin: 0px;
+  padding: 0px;
+  height:700px;
+  /*Font properties*/
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  color:#9B74AB;
+  /*flexbox to put it at the very center of the header*/
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+#nav-bar{
+  display:flex;
+  flex-direction: row;
+}
+
+.navbar{
+  padding: 5px 20px;
+  background-color: #9B74AB;
+  color:#EAECE9;
+  border:2px solid #EAECE9;
+  margin: 0px;
+}
+
+.navbar:hover{
+  padding: 6px 21px;
+  background-color: #9B74AB;
+  color:#EAECE9;
+  box-shadow: 5px 5px 3px #9B74AB;
+
+}
+
+#content-section{
+  margin-left:30px;
+  text-align:center;
+  margin-bottom:50px;
+}
+
+button{
+  background-color:#C17CDD;
+  color:#EAECE9;
+  font-family: 'Outfit', sans-serif;
+  padding: 5px 20px;
+  border-radius:15px;
+  border:none;
+  font-size:20px;
+}
+
+button:hover{
+  padding: 6px 21px;
+  background-color: #EB93F6;
+  box-shadow: -5px 5px 3px #9B74AB;
+
+
+}
